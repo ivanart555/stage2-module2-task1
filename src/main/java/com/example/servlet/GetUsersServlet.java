@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 @WebServlet("/users")
 public class GetUsersServlet extends HttpServlet {
-    private static final Logger log = Logger.getLogger(AddUserServlet.class.getName());
+    private static final Logger log = Logger.getLogger(GetUsersServlet.class.getName());
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) {
